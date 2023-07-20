@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:arial;
+}
+
+header{
+    margin:auto;
+    text-align:center;
+}
+
+footer{
+    margin:auto;
+    text-align:center;
+    margin-top: -170px;
+}
+
+#titulo{
+    margin-top: 91px;
+}
+
+#mensagem{
+    text-align: center;
+    padding: 25px;
+    margin-top: 17px;
+    font-weight: 600;
+}
+
+#espaço{
+    width: 393px;
+    height: 336px;
+    margin: auto;
+    border-radius: 17px;
+    background-color: #63f2ff50;
+}
+
+#rodape{
+    margin-top: 311px;
+}
+
+#img{
+    text-align: center;
+}
+
+#imagem{
+width: 200px;
+}
+
+#mensagem2{
+    margin: auto;
+    text-align: center;
+    padding: 18px;
+    font-weight: 600;
+}
