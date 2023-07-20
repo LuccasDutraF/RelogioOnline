@@ -12,9 +12,9 @@ function carregar(){
     msg.innerHTML =`Agora são ${hora} horas e ${minuto} minuto`
     
     if (hora >= 0 && hora <5){
-        img.src= '/Circulo-horario/fotomadruga.png'
+        img.src= 'fotomadruga.png'
         msg2.innerHTML = "Boa Madrugada para você"
-        document.body.style.backgroundImage = "url('/Fundo-horario/madrugada.jpg')"
+        document.body.style.backgroundImage = "url('madrugada.jpg')"
         msg.style.color = ("white")
         msg2.style.color = ("white")
         titulo.style.color = ("white")
@@ -22,20 +22,20 @@ function carregar(){
         espaço.style.backgroundColor = ("#6c5ae750")
     }
     else if (hora >=6 && hora <=12){
-        img.src = '/Circulo-horario/fotomanha.png'
+        img.src = 'fotomanha.png'
         msg2.innerHTML = "Bom Dia para você"
-        document.body.style.backgroundImage = "url('/Fundo-horario/fundo.jpg')"
+        document.body.style.backgroundImage = "url('fundo.jpg')"
         espaço.style.backgroundColor = ("#00b0c150")
     } else if 
         (hora >12 && hora <=18){
-        img.src = '/Circulo-horario/fototarde.png'
+        img.src = 'fototarde.png'
         msg2.innerHTML = "Boa Tarde para você"
-        document.body.style.backgroundImage = "url('/Fundo-horario/tarde.jpg')"
+        document.body.style.backgroundImage = "url('tarde.jpg')"
         espaço.style.backgroundColor = ("#971b0750")
     } else{
-        img.src = '/Circulo-horario/fotonoite.png'
+        img.src = 'fotonoite.png'
         msg2.innerHTML = "Boa Noite para Você"
-        document.body.style.backgroundImage = "url('/Fundo-horario/noite.jpg')"
+        document.body.style.backgroundImage = "url('noite.jpg')"
         espaço.style.backgroundColor = ("#2f02b250")
         msg.style.color = ("white")
         msg2.style.color = ("white")
