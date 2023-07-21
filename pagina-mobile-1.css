@@ -4,10 +4,9 @@
 }
 
 body{
-    font-family:arial;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
+    font-family: arial;
+    background-position: top;
+    background-size: 121% 156%;
 }
 
 header{
@@ -38,7 +37,7 @@ footer{
 }
 
 #espaço-container{
-    width: 50%;
+    width: 26%;
     margin: auto;
     border-radius: 17px;
     background-color: #63f2ff50;
@@ -54,7 +53,7 @@ footer{
 }
 
 #imagem{
-width: 200px;
+    width: 160px;
 }
 
 #mensagem2{
