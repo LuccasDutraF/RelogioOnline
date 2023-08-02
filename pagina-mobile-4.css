@@ -5,7 +5,7 @@
 
 body{
     background-position: top;
-    background-size: 127% 152%;
+    background-size: 127% 175%;
     background-repeat: no-repeat;
 }
 
@@ -38,7 +38,7 @@ footer{
 }
 
 #espaçocontainer{
-    width: 47%;
+    width: 65%;
     margin: auto;
     border-radius: 17px;
     background-color: #63f2ff50;
